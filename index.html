@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/png/deep.png">
+    <title>Deep space Brawl</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.   3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body class="body_clr">
+    <!-- ---------------------------------------------------------------<header>-------------------------------------------  -->
+    <header class="d-flex min_vh_100 flex-column ">
+        <nav>
+            <div class="nav_clr py-4">
+                <div class="container">
+                    <div class="d-flex align-items-center  justify-content-end ">
+                        <ul class="d-flex gap-5  my_box" id="navbox">
+                            <li><a class="fs_18 fw_400 ff_grand text-white" href="#home">Home</a></li>
+                            <li><a class="fs_18 fw_400 ff_grand text-white" href="#about">About Us</a></li>
+                            <li><a class="fs_18 fw_400 ff_grand text-white" href="#game">Games</a></li>
+                            <li><a class="fs_18 fw_400 ff_grand text-white" href="#faqs">FAQs</a></li>
+                            <li><a class="fs_18 fw_400 ff_grand text-white" href="#contact">Contact</a></li>
+                        </ul>
+                        <label id="menu" class="d-xl-none d-flex" onclick="responsive()">
+                            <span class="top"></span>
+                            <span class="center"></span>
+                            <span class="bottom"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex align-items-center justify-content-center flex-grow-1 position-relative">
+
+            <div class="text-center mb-5">
+                <img class="w-100 " src="./assets/images/png/Deep Space.png" alt="#deep_images">
+                <p class="fs_18 fw_600 ff_grand text-white  deep_text m-auto mt-3">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Euismod felis, dolor porta
+                    tincidunt
+                    consectetur nulla ac
+                    facilisis. Elit commodo amet, auctor et. Donec aliquet viverra in mauris nunc.</p>
+                <button class="play_btn fs_24 fw_600 ff_grand text-white mt-5 mb-4 hover_class">Play Now</button>
+            </div>
+            <img class="toy_img d-none d-xxl-block w_34 " src="./assets/images/png/new_toy.png" alt="toy">
+
+            <img class="ufo_img d-none d-xxl-block" src="./assets/images/png/yfo.png" alt="ufo">
+        </div>
+    </header>
+    <!------------------------------------------------------------------- aboutus --------------------------------------------->
+    <section id="about" class="section2_bg_img over_lay mt-5 mb-5 mt-xl-0 mb-xl-0  position-relative z-2">
+        <div class="container pt_222 mb_164">
+            <div class="row z-1  position-relative justify-content-between align-items-center mt-5">
+                <div class="col-10 m-auto m-md-0 col-sm-12 col-md-6 col-lg-5 ">
+                    <div class="img_border z-1">
+                        <img class="w-100" src="./assets/images/png/ist_gif.gif" alt="gif">
+                    </div>
+                </div>
+                <div class="col-10 m-auto m-md-0 col-sm-12  col-md-5 col-lg-5">
+                    <div>
+                        <p class="fs_70 fw_600 ff_grand text-white mt-4 mt-md-0">About Us</p>
+                        <p class="fs_18 fw_400 text-white ff_grand about_text">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit. Nulla augue in pharetra
+                            euismod at
+                            amet. Neque ultrices vitae
+                            at eget nisi, eget tellus tincidunt amet. Blandit pharetra, viverra feugiat consectetur
+                            neque risus.</p>
+                        <p class="fs_18 fw_400 text-white ff_grand about_text">At nunc, gravida nunc cursus gravida
+                            nulla enim. Tempor gravida massa eu, enim metus
+                            ridiculus feugiat at. Leo libero,
+                            ac feugiat nunc, elementum quis tristique.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <img class="moom_img" src="./assets/images/png/moon.png" alt="moon_images">
+        <img class="little_moon d-none d-xxl-block" src="./assets/images/png/white_cirle.png" alt="moon_images">
+        <img class="left_moon d-none d-xxl-block" src="./assets/images/png/last_moon.png" alt="last_moon">
+    </section>
+    <!-- ----------------------------------------------------------------------gameplay-------------------------------------------- -->
+    <section id="game" class="setion3_bg position-relative mt-5 mb-5 mt-xl-0 mb-xl-0 ">
+        <div class="container position-relative z-2 mb_209">
+            <div class="text-center position-relative">
+                <p class="fs_70 fw_600 ff_grand text-white text-center pt-4">Game Play</p>
+
+                <img class=" w-100  pt_81" src="./assets/images/png/big_img.png" alt="#">
+
+            </div>
+        </div>
+        <img class="game_astro d-none d-xxl-block" src="./assets/images/png/game-astro.png" alt="#">
+        <img class="uranus_img d-none d-xxl-block" src="./assets/images/png/uranus1.png" alt="uranus">
+        <img class="right_moon d-none d-xxl-block" src="./assets/images/png/Group24.png" alt="#">
+        <img class="frog_img d-none d-xxl-block" src="./assets/images/png/frog_ufo.png" alt="frog_images">
+
+    </section>
+    <!-- ------------------------------------------------------------------------slider----------------------------------------------------- -->
+    <section>
+
+        <div class="slider rotate mt-5 mt_242 ">
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+
+        </div>
+        <div class="slider rotate mt-2 mb-5 mb_242">
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+            <div class="px-2">
+                <img class="w-100" src="./assets/images/png/slid_img.png" alt="slid_img">
+            </div>
+        </div>
+
+
+    </section>
+    <!-- ----------------------------------------------------------roadmap-------------------------------- -->
+    <section class="d-none d-md-flex position-relative ">
+        <div class="container ">
+            <div>
+                <p class="fs_70 fw_500 ff_grand text-center text-white mt-5">Roadmap</p>
+            </div>
+            <div class=" w_80 mx-xl-auto position-relative mt_105">
+                <img class="w-100 d-none d-md-flex " src="./assets/images/png/road.png" alt="roadmap">
+                <div>
+                    <div class="blue_crl p-3 position_md_absolute position_gif_1">
+                        <div class="position-relative h-100 ">
+                            <img class="img_radios h-100 w-100 " src="./assets/images/png/flying-space 1.gif" alt="$">
+                            <img class="min_blue_box position-absolute top-50 translate-middle-y z-n1"
+                                src="./assets/images/png/min_ox.png" alt="moon">
+                        </div>
+                        <div class=" position_text_1 position-absolute ">
+                            <p class="fs_32 fw_400 ff_mandoli text-white ">Phase1</p>
+                            <p class="fs_16 fw_400 ff_grand text-white road_text_1">Venenatis scelerisque sit cras
+                                amet risus
+                                mattis.
+                                Dignissim ipsum
+                                fermentum augue non
+                                risus fermentum.</p>
+                        </div>
+                    </div>
+
+                    <div class="blue_crl p-3 position_md_absolute position_gif_2 mt-4">
+                        <div class="position-relative h-100">
+                            <img class="img_radios h-100 w-100 " src="./assets/images/png/flying-space 1.gif" alt="$">
+                            <img class="min_blue_box2 position-absolute top-50 translate-middle-y z-n1"
+                                src="./assets/images/png/right_side.png" alt="moon">
+                        </div>
+                        <div class=" position_text_2 position-absolute ">
+                            <p class="fs_32 fw_400 ff_mandoli text-white text-end ">Phase2</p>
+                            <p class="fs_16 fw_400 ff_grand text-white road_text_1 ">Venenatis scelerisque sit cras amet
+                                risus mattis. Dignissim risus fermentum.</p>
+                        </div>
+                    </div>
+                    <div class="blue_crl p-3 position_md_absolute position_gif_3 ">
+                        <div class="position-relative h-100">
+                            <img class="img_radios h-100 w-100 " src="./assets/images/png/flying-space 1.gif" alt="$">
+                            <img class="min_blue_box position-absolute top-50 translate-middle-y z-n1"
+                                src="./assets/images/png/min_ox.png" alt="moon">
+                        </div>
+                        <div class=" position_text_3 position-absolute ">
+                            <p class="fs_32 fw_400 ff_mandoli text-white  ">Phase3</p>
+                            <p class="fs_16 fw_400 ff_grand text-white road_text_1 ">Venenatis scelerisque sit cras amet
+                                risus mattis. Dignissim risus fermentum.</p>
+                        </div>
+                    </div>
+                    <div class="blue_crl p-3 position_md_absolute position_gif_4">
+                        <div class="position-relative h-100">
+                            <img class="img_radios h-100 w-100 " src="./assets/images/png/flying-space 1.gif" alt="$">
+                            <img class="min_blue_box2 position-absolute top-50 translate-middle-y z-n1"
+                                src="./assets/images/png/right_side.png" alt="moon">
+                        </div>
+                        <div class=" position_text_4 position-absolute ">
+                            <p class="fs_32 fw_400 ff_mandoli text-white text-end ">Phase4</p>
+                            <p class="fs_16 fw_400 ff_grand text-white road_text_1 ">Venenatis scelerisque sit cras amet
+                                risus mattis. Dignissim risus fermentum.</p>
+                        </div>
+                    </div>
+                    <div class="blue_crl p-3 position_md_absolute position_gif_5">
+                        <div class="position-relative h-100">
+                            <img class="img_radios h-100 w-100 " src="./assets/images/png/flying-space 1.gif" alt="$">
+                            <img class="min_blue_box position-absolute top-50 translate-middle-y z-n1"
+                                src="./assets/images/png/min_ox.png" alt="moon">
+                        </div>
+                        <div class=" position_text_5 position-absolute ">
+                            <p class="fs_32 fw_400 ff_mandoli text-white  ">Phase5</p>
+                            <p class="fs_16 fw_400 ff_grand text-white road_text_1 ">Venenatis scelerisque sit cras amet
+                                risus mattis. Dignissim risus fermentum.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img class="right_rocket d-none d-xxl-block " src="./assets/images/png/roket.png" alt="img">
+        <img class="road_men d-none d-xxl-block" src="./assets/images/png/road_men.png" alt="img">
+        <img class="road_ufo d-none d-xxl-block" src="./assets/images/png/road_ufo.png" alt="img">
+        <img class="left_rocket d-none d-xxl-block" src="./assets/images/png/left_rocket.png" alt="img">
+    </section>
+
+    <section class=" d-md-none mt-5 py-5">
+        <div class="container mt-5">
+            <div class="row flex-column gap-5 align-items-end position-relative">
+                <div class="roadmap_line"></div>
+                <div class="col-9 position-relative">
+                    <img width="150px" class=" position-absolute left_n43_top_n12 left_43"
+                        src="./assets/images/png/roadmap.png" alt="img">
+                    <div>
+                        <p class="fs_32 fw_400 ff_mandoli text-white ">Phase1</p>
+                        <p class="fs_16 fw_400 ff_grand text-white road_text_1">Venenatis scelerisque sit cras
+                            amet risus
+                            mattis.
+                            Dignissim ipsum
+                            fermentum augue non
+                            risus fermentum.</p>
+                    </div>
+                </div>
+                <div class="col-9 position-relative">
+                    <img width="150px" class=" position-absolute left_n43_top_n12 left_43"
+                        src="./assets/images/png/roadmap.png" alt="img">
+                    <div>
+                        <p class="fs_32 fw_400 ff_mandoli text-white ">Phase1</p>
+                        <p class="fs_16 fw_400 ff_grand text-white road_text_1">Venenatis scelerisque sit cras
+                            amet risus
+                            mattis.
+                            Dignissim ipsum
+                            fermentum augue non
+                            risus fermentum.</p>
+                    </div>
+                </div>
+                <div class="col-9 position-relative">
+                    <img width="150px" class=" position-absolute left_n43_top_n12 left_43"
+                        src="./assets/images/png/roadmap.png" alt="img">
+                    <div>
+                        <p class="fs_32 fw_400 ff_mandoli text-white ">Phase1</p>
+                        <p class="fs_16 fw_400 ff_grand text-white road_text_1">Venenatis scelerisque sit cras
+                            amet risus
+                            mattis.
+                            Dignissim ipsum
+                            fermentum augue non
+                            risus fermentum.</p>
+                    </div>
+                </div>
+                <div class="col-9 position-relative">
+                    <img width="150px" class=" position-absolute left_n43_top_n12 left_43"
+                        src="./assets/images/png/roadmap.png" alt="img">
+                    <div>
+                        <p class="fs_32 fw_400 ff_mandoli text-white ">Phase1</p>
+                        <p class="fs_16 fw_400 ff_grand text-white road_text_1">Venenatis scelerisque sit cras
+                            amet risus
+                            mattis.
+                            Dignissim ipsum
+                            fermentum augue non
+                            risus fermentum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------------team ---------------------------------------->
+    <section>
+        <div class="container">
+            <div class="mt_128">
+                <p class="fs_70 fw_500 ff_grand text-white text-center ">Team</p>
+            </div>
+            <div class="row  mt_85">
+                <div class="col-10 col-sm-6 col-lg-4 mt-4 mx-auto ">
+                    <div class="my_card">
+                        <img class="w-100" src="./assets/images/png/lady_1.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-4 mt-4 mx-auto">
+                    <div class="my_card">
+                        <img class="w-100" src="./assets/images/png/man_2.png" alt="img">
+                    </div>
+                </div>
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto  mt-4">
+                    <div class="my_card">
+                        <img class="w-100" src="./assets/images/png/lady_2.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------- accordian----------------------------------- -->
+    <section id="faqo" class="mt_140 mt-5 mb-5 mt-xl-0 mb-xl-0">
+        <div class="container">
+            <p class="fs_70 fw_500 ff_grand  text-center text-white">FAQs</p>
+            <div class="row align-items-center  ">
+                <div class="col-12 col-md-9 col-lg-9 mt_105">
+                    <div class=" m_5 accordion accordion-flush" id="accordionFlushExample ">
+                        <div class="accordion-item mb-3 my_border">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <p class="fs_20 fw_500 ff_grand text-white">1. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit ?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="fs_16 fw_400 ff_grand text-white  ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 my_border">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsetwo" aria-expanded="false"
+                                    aria-controls="flush-collapsetwo">
+                                    <p class="fs_20 fw_500 ff_grand text-white">2. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit ?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsetwo" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="fs_16 fw_400 ff_grand text-white  ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 my_border">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsethree" aria-expanded="false"
+                                    aria-controls="flush-collapsethree">
+                                    <p class="fs_20 fw_500 ff_grand text-white">3. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit ?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsethree" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="fs_16 fw_400 ff_grand text-white  ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 my_border">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    <p class="fs_20 fw_500 ff_grand text-white">4. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit ?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="fs_16 fw_400 ff_grand text-white  ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 my_border">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    <p class="fs_20 fw_500 ff_grand text-white">5. Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit ?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="fs_16 fw_400 ff_grand text-white  ">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="d-none d-md-block  col-md-3  col-lg-3">
+                    <img class="w-100" src="./assets/images/png/last_ufo.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------------------<footer> --------------------------------------->
+    <footer class="   footer_bg mt-5 m-lg-0  position-relative">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-8">
+                    <div class="text-center">
+                        <img class="mt_188" src=" ./assets/images/png/last_img.png" alt="images">
+                    </div>
+                </div>
+                <ul class="d-flex mt_39 gap-2 gap-lg-4 justify-content-center">
+                    <li><a class="hover_class" href="#"><svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.2547 24.6939C20.8175 19.7247 18.4267 14.4188 16.7859 12.387L19.9503 12.8514V11.342C20.6535 10.0417 21.4372 10.8002 21.7411 11.342V13.6641C29.315 18.4011 26.0719 22.991 23.5037 24.6939H21.7411V26.8999H23.8813C24.7123 26.8999 26.0604 25.6614 26.6306 25.0422L32.0803 23.649V25.0422C31.0959 24.9493 30.1075 26.0097 29.7364 26.5516C27.8143 30.0811 26.279 30.8474 25.7516 30.7893H14.7349C10.2814 29.6283 9.55867 26.2419 9.754 24.6939H15.1451C14.9576 27.2946 18.2704 27.2482 19.9503 26.8999V24.6939H17.2547Z"
+                                    fill="white" />
+                                <path
+                                    d="M17.2547 24.6939C20.8175 19.7247 18.4267 14.4188 16.7859 12.387L19.9503 12.8514V11.342C20.6535 10.0417 21.4372 10.8002 21.7411 11.342V13.6641C29.315 18.4011 26.0719 22.991 23.5037 24.6939H21.7411V26.8999H23.8813C24.7123 26.8999 26.0604 25.6614 26.6306 25.0422L32.0803 23.649V25.0422C31.0959 24.9493 30.1075 26.0097 29.7364 26.5516C27.8143 30.0811 26.279 30.8474 25.7516 30.7893H14.7349C10.2814 29.6283 9.55867 26.2419 9.754 24.6939H15.1451C14.9576 27.2946 18.2704 27.2482 19.9503 26.8999V24.6939H17.2547Z"
+                                    fill="white" />
+                                <path
+                                    d="M15.9242 22.3728C18.4094 20.3144 16.9597 16.3356 15.9242 14.6035L10.9844 22.3728H15.9242Z"
+                                    fill="white" />
+                                <path
+                                    d="M15.9242 22.3728C18.4094 20.3144 16.9597 16.3356 15.9242 14.6035L10.9844 22.3728H15.9242Z"
+                                    fill="white" />
+                                <path
+                                    d="M41.1408 20.7078C41.1408 31.771 32.086 40.7501 20.9032 40.7501C9.72036 40.7501 0.665576 31.771 0.665576 20.7078C0.665576 9.64467 9.72036 0.665576 20.9032 0.665576C32.086 0.665576 41.1408 9.64467 41.1408 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.1408 20.7078C41.1408 31.771 32.086 40.7501 20.9032 40.7501C9.72036 40.7501 0.665576 31.771 0.665576 20.7078C0.665576 9.64467 9.72036 0.665576 20.9032 0.665576C32.086 0.665576 41.1408 9.64467 41.1408 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                            </svg>
+                        </a></li>
+                    <li><a class="hover_class" href="#"><svg width="43" height="42" viewBox="0 0 43 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M41.9472 20.7078C41.9472 31.771 32.8924 40.7501 21.7096 40.7501C10.5268 40.7501 1.47197 31.771 1.47197 20.7078C1.47197 9.64467 10.5268 0.665576 21.7096 0.665576C32.8924 0.665576 41.9472 9.64467 41.9472 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.9472 20.7078C41.9472 31.771 32.8924 40.7501 21.7096 40.7501C10.5268 40.7501 1.47197 31.771 1.47197 20.7078C1.47197 9.64467 10.5268 0.665576 21.7096 0.665576C32.8924 0.665576 41.9472 9.64467 41.9472 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                                <g clip-path="url(#clip0_2_13520)">
+                                    <path
+                                        d="M34.0224 13.3086C33.1393 13.6963 32.1907 13.9582 31.1934 14.0766C32.2224 13.4666 32.9923 12.5066 33.3593 11.3756C32.3925 11.9445 31.3344 12.3449 30.2309 12.5595C29.4889 11.7746 28.5061 11.2544 27.435 11.0796C26.3639 10.9048 25.2646 11.0852 24.3076 11.5927C23.3506 12.1003 22.5895 12.9067 22.1426 13.8867C21.6956 14.8666 21.5877 15.9654 21.8357 17.0123C19.8767 16.9149 17.9603 16.4105 16.2108 15.5318C14.4613 14.6531 12.9178 13.4199 11.6806 11.912C11.2576 12.635 11.0143 13.4731 11.0143 14.3658C11.0139 15.1694 11.2136 15.9607 11.5959 16.6694C11.9781 17.3782 12.5311 17.9826 13.2057 18.4288C12.4233 18.4042 11.6583 18.1948 10.9741 17.818V17.8809C10.9741 19.008 11.3676 20.1003 12.088 20.9727C12.8084 21.845 13.8112 22.4436 14.9264 22.6669C14.2006 22.8614 13.4398 22.8901 12.7012 22.7507C13.0158 23.7205 13.6287 24.5685 14.454 25.1761C15.2794 25.7836 16.2758 26.1203 17.3039 26.139C15.5587 27.4962 13.4033 28.2324 11.1846 28.2292C10.7916 28.2293 10.3989 28.2066 10.0085 28.1611C12.2607 29.5956 14.8823 30.3569 17.5598 30.354C26.6235 30.354 31.5783 22.9173 31.5783 16.4675C31.5783 16.258 31.573 16.0463 31.5635 15.8368C32.5273 15.1463 33.3592 14.2913 34.0203 13.3118L34.0224 13.3086Z"
+                                        fill="white" />
+                                    <path
+                                        d="M34.0224 13.3086C33.1393 13.6963 32.1907 13.9582 31.1934 14.0766C32.2224 13.4666 32.9923 12.5066 33.3593 11.3756C32.3925 11.9445 31.3344 12.3449 30.2309 12.5595C29.4889 11.7746 28.5061 11.2544 27.435 11.0796C26.3639 10.9048 25.2646 11.0852 24.3076 11.5927C23.3506 12.1003 22.5895 12.9067 22.1426 13.8867C21.6956 14.8666 21.5877 15.9654 21.8357 17.0123C19.8767 16.9149 17.9603 16.4105 16.2108 15.5318C14.4613 14.6531 12.9178 13.4199 11.6806 11.912C11.2576 12.635 11.0143 13.4731 11.0143 14.3658C11.0139 15.1694 11.2136 15.9607 11.5959 16.6694C11.9781 17.3782 12.5311 17.9826 13.2057 18.4288C12.4233 18.4042 11.6583 18.1948 10.9741 17.818V17.8809C10.9741 19.008 11.3676 20.1003 12.088 20.9727C12.8084 21.845 13.8112 22.4436 14.9264 22.6669C14.2006 22.8614 13.4398 22.8901 12.7012 22.7507C13.0158 23.7205 13.6287 24.5685 14.454 25.1761C15.2794 25.7836 16.2758 26.1203 17.3039 26.139C15.5587 27.4962 13.4033 28.2324 11.1846 28.2292C10.7916 28.2293 10.3989 28.2066 10.0085 28.1611C12.2607 29.5956 14.8823 30.3569 17.5598 30.354C26.6235 30.354 31.5783 22.9173 31.5783 16.4675C31.5783 16.258 31.573 16.0463 31.5635 15.8368C32.5273 15.1463 33.3592 14.2913 34.0203 13.3118L34.0224 13.3086Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_13520">
+                                        <rect width="25.3824" height="25.1452" fill="white"
+                                            transform="translate(9.01733 8.13525)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+                    <li><a class="hover_class" href="#"><svg width="43" height="42" viewBox="0 0 43 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M41.7536 20.7078C41.7536 31.771 32.6988 40.7501 21.516 40.7501C10.3331 40.7501 1.27837 31.771 1.27837 20.7078C1.27837 9.64467 10.3331 0.665576 21.516 0.665576C32.6988 0.665576 41.7536 9.64467 41.7536 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.7536 20.7078C41.7536 31.771 32.6988 40.7501 21.516 40.7501C10.3331 40.7501 1.27837 31.771 1.27837 20.7078C1.27837 9.64467 10.3331 0.665576 21.516 0.665576C32.6988 0.665576 41.7536 9.64467 41.7536 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                                <path
+                                    d="M30.9261 10.8886C29.195 10.1164 27.3395 9.54563 25.399 9.22108C25.3817 9.21779 25.3639 9.21991 25.3478 9.22713C25.3318 9.23434 25.3185 9.24631 25.3096 9.26136C25.072 9.67433 24.8073 10.2126 24.6217 10.6379C22.5637 10.3338 20.4715 10.3338 18.4135 10.6379C18.2068 10.1666 17.9737 9.70703 17.7154 9.26136C17.7066 9.24612 17.6934 9.23389 17.6774 9.22629C17.6614 9.21869 17.6435 9.21609 17.626 9.21884C15.6867 9.54339 13.8311 10.1141 12.0989 10.8875C12.084 10.8937 12.0713 10.9042 12.0627 10.9177C8.54159 16.0378 7.57647 21.0314 8.05055 25.9623C8.05186 25.9744 8.05565 25.9861 8.06168 25.9966C8.06771 26.0072 8.07586 26.0165 8.08562 26.0238C10.1408 27.5038 12.433 28.6312 14.8664 29.3589C14.8833 29.364 14.9015 29.364 14.9184 29.3588C14.9354 29.3537 14.9504 29.3435 14.9614 29.3298C15.4842 28.6359 15.9503 27.9029 16.3486 27.1329C16.3723 27.0882 16.3497 27.0344 16.3022 27.0165C15.5713 26.7443 14.8631 26.4157 14.1841 26.0339C14.1719 26.027 14.1616 26.0173 14.1542 26.0055C14.1468 25.9937 14.1424 25.9803 14.1415 25.9664C14.1406 25.9525 14.1432 25.9386 14.1491 25.926C14.1549 25.9134 14.1639 25.9024 14.1751 25.894C14.3176 25.7899 14.4602 25.6814 14.596 25.5728C14.6082 25.5631 14.6229 25.5569 14.6385 25.5549C14.6541 25.5529 14.6699 25.5552 14.6842 25.5616C19.1274 27.5358 23.9395 27.5358 28.3306 25.5616C28.345 25.5549 28.361 25.5522 28.3768 25.554C28.3926 25.5558 28.4075 25.5619 28.42 25.5717C28.5558 25.6814 28.6972 25.7899 28.8409 25.894C28.8522 25.9022 28.8613 25.9131 28.8673 25.9256C28.8734 25.9381 28.8762 25.9519 28.8755 25.9658C28.8749 25.9796 28.8707 25.9931 28.8635 26.005C28.8563 26.0169 28.8462 26.0268 28.8341 26.0339C28.1575 26.4189 27.4537 26.7446 26.7149 27.0154C26.7036 27.0195 26.6932 27.0259 26.6846 27.0342C26.6759 27.0426 26.6692 27.0527 26.6648 27.0638C26.6604 27.0749 26.6585 27.0868 26.6591 27.0987C26.6598 27.1107 26.663 27.1223 26.6685 27.1329C27.0758 27.9018 27.542 28.6337 28.0545 29.3287C28.0652 29.3429 28.08 29.3536 28.097 29.3592C28.1141 29.3648 28.1324 29.3651 28.1496 29.36C30.5871 28.6344 32.8831 27.5065 34.9405 26.0238C34.9506 26.0169 34.959 26.0079 34.9652 25.9975C34.9715 25.9871 34.9754 25.9755 34.9767 25.9634C35.5424 20.2625 34.0286 15.3092 30.9612 10.9199C30.9537 10.9057 30.9413 10.8945 30.9261 10.8886ZM17.0127 22.9596C15.6754 22.9596 14.5722 21.7633 14.5722 20.2961C14.5722 18.8278 15.6539 17.6325 17.0127 17.6325C18.3818 17.6325 19.4748 18.8378 19.4533 20.2961C19.4533 21.7644 18.3716 22.9596 17.0127 22.9596ZM26.036 22.9596C24.6975 22.9596 23.5955 21.7633 23.5955 20.2961C23.5955 18.8278 24.676 17.6325 26.036 17.6325C27.4051 17.6325 28.4981 18.8378 28.4766 20.2961C28.4766 21.7644 27.4062 22.9596 26.036 22.9596Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.9261 10.8886C29.195 10.1164 27.3395 9.54563 25.399 9.22108C25.3817 9.21779 25.3639 9.21991 25.3478 9.22713C25.3318 9.23434 25.3185 9.24631 25.3096 9.26136C25.072 9.67433 24.8073 10.2126 24.6217 10.6379C22.5637 10.3338 20.4715 10.3338 18.4135 10.6379C18.2068 10.1666 17.9737 9.70703 17.7154 9.26136C17.7066 9.24612 17.6934 9.23389 17.6774 9.22629C17.6614 9.21869 17.6435 9.21609 17.626 9.21884C15.6867 9.54339 13.8311 10.1141 12.0989 10.8875C12.084 10.8937 12.0713 10.9042 12.0627 10.9177C8.54159 16.0378 7.57647 21.0314 8.05055 25.9623C8.05186 25.9744 8.05565 25.9861 8.06168 25.9966C8.06771 26.0072 8.07586 26.0165 8.08562 26.0238C10.1408 27.5038 12.433 28.6312 14.8664 29.3589C14.8833 29.364 14.9015 29.364 14.9184 29.3588C14.9354 29.3537 14.9504 29.3435 14.9614 29.3298C15.4842 28.6359 15.9503 27.9029 16.3486 27.1329C16.3723 27.0882 16.3497 27.0344 16.3022 27.0165C15.5713 26.7443 14.8631 26.4157 14.1841 26.0339C14.1719 26.027 14.1616 26.0173 14.1542 26.0055C14.1468 25.9937 14.1424 25.9803 14.1415 25.9664C14.1406 25.9525 14.1432 25.9386 14.1491 25.926C14.1549 25.9134 14.1639 25.9024 14.1751 25.894C14.3176 25.7899 14.4602 25.6814 14.596 25.5728C14.6082 25.5631 14.6229 25.5569 14.6385 25.5549C14.6541 25.5529 14.6699 25.5552 14.6842 25.5616C19.1274 27.5358 23.9395 27.5358 28.3306 25.5616C28.345 25.5549 28.361 25.5522 28.3768 25.554C28.3926 25.5558 28.4075 25.5619 28.42 25.5717C28.5558 25.6814 28.6972 25.7899 28.8409 25.894C28.8522 25.9022 28.8613 25.9131 28.8673 25.9256C28.8734 25.9381 28.8762 25.9519 28.8755 25.9658C28.8749 25.9796 28.8707 25.9931 28.8635 26.005C28.8563 26.0169 28.8462 26.0268 28.8341 26.0339C28.1575 26.4189 27.4537 26.7446 26.7149 27.0154C26.7036 27.0195 26.6932 27.0259 26.6846 27.0342C26.6759 27.0426 26.6692 27.0527 26.6648 27.0638C26.6604 27.0749 26.6585 27.0868 26.6591 27.0987C26.6598 27.1107 26.663 27.1223 26.6685 27.1329C27.0758 27.9018 27.542 28.6337 28.0545 29.3287C28.0652 29.3429 28.08 29.3536 28.097 29.3592C28.1141 29.3648 28.1324 29.3651 28.1496 29.36C30.5871 28.6344 32.8831 27.5065 34.9405 26.0238C34.9506 26.0169 34.959 26.0079 34.9652 25.9975C34.9715 25.9871 34.9754 25.9755 34.9767 25.9634C35.5424 20.2625 34.0286 15.3092 30.9612 10.9199C30.9537 10.9057 30.9413 10.8945 30.9261 10.8886ZM17.0127 22.9596C15.6754 22.9596 14.5722 21.7633 14.5722 20.2961C14.5722 18.8278 15.6539 17.6325 17.0127 17.6325C18.3818 17.6325 19.4748 18.8378 19.4533 20.2961C19.4533 21.7644 18.3716 22.9596 17.0127 22.9596ZM26.036 22.9596C24.6975 22.9596 23.5955 21.7633 23.5955 20.2961C23.5955 18.8278 24.676 17.6325 26.036 17.6325C27.4051 17.6325 28.4981 18.8378 28.4766 20.2961C28.4766 21.7644 27.4062 22.9596 26.036 22.9596Z"
+                                    fill="white" />
+                            </svg>
+                        </a></li>
+                    <li><a class="hover_class" href="#"><svg width="43" height="42" viewBox="0 0 43 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M41.56 20.7078C41.56 31.771 32.5052 40.7501 21.3224 40.7501C10.1395 40.7501 1.08477 31.771 1.08477 20.7078C1.08477 9.64467 10.1395 0.665576 21.3224 0.665576C32.5052 0.665576 41.56 9.64467 41.56 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.56 20.7078C41.56 31.771 32.5052 40.7501 21.3224 40.7501C10.1395 40.7501 1.08477 31.771 1.08477 20.7078C1.08477 9.64467 10.1395 0.665576 21.3224 0.665576C32.5052 0.665576 41.56 9.64467 41.56 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                                <g clip-path="url(#clip0_2_13529)">
+                                    <path
+                                        d="M33.0701 15.9257C33.057 14.9455 32.8717 13.975 32.5227 13.0577C32.2201 12.2839 31.7579 11.5812 31.1656 10.9944C30.5733 10.4076 29.8639 9.94973 29.0829 9.64992C28.1688 9.31 27.2031 9.12619 26.227 9.10634C24.9702 9.05069 24.5717 9.03516 21.3813 9.03516C18.191 9.03516 17.7821 9.03516 16.5344 9.10634C15.5587 9.12634 14.5935 9.31014 13.6798 9.64992C12.8986 9.94952 12.1892 10.4074 11.5969 10.9942C11.0045 11.581 10.5424 12.2838 10.2399 13.0577C9.89613 13.9625 9.711 14.9189 9.69255 15.8856C9.63637 17.1319 9.61938 17.5267 9.61938 20.6872C9.61938 23.8477 9.61938 24.2515 9.69255 25.4888C9.71214 26.4569 9.89635 27.4121 10.2399 28.3193C10.5429 29.093 11.0054 29.7955 11.5979 30.382C12.1904 30.9686 12.9 31.4262 13.6811 31.7257C14.5923 32.0793 15.5577 32.2763 16.5357 32.3082C17.7938 32.3638 18.1923 32.3806 21.3827 32.3806C24.573 32.3806 24.9819 32.3806 26.2296 32.3082C27.2057 32.2891 28.1714 32.1057 29.0855 31.7659C29.8663 31.4657 30.5755 31.0077 31.1677 30.421C31.76 29.8342 32.2224 29.1317 32.5254 28.3581C32.8689 27.4522 33.0532 26.497 33.0728 25.5276C33.1289 24.2826 33.1459 23.8878 33.1459 20.726C33.1433 17.5655 33.1433 17.1643 33.0701 15.9257ZM21.3735 26.664C18.0368 26.664 15.3338 23.9862 15.3338 20.6807C15.3338 17.3752 18.0368 14.6975 21.3735 14.6975C22.9753 14.6975 24.5116 15.3278 25.6442 16.4499C26.7769 17.572 27.4132 19.0939 27.4132 20.6807C27.4132 22.2676 26.7769 23.7894 25.6442 24.9115C24.5116 26.0336 22.9753 26.664 21.3735 26.664ZM27.6536 15.8713C27.4686 15.8715 27.2854 15.8355 27.1144 15.7655C26.9435 15.6954 26.7882 15.5927 26.6574 15.4631C26.5266 15.3335 26.4228 15.1796 26.3521 15.0103C26.2814 14.8409 26.2451 14.6594 26.2453 14.4761C26.2453 14.293 26.2817 14.1117 26.3524 13.9425C26.4232 13.7733 26.5268 13.6195 26.6576 13.49C26.7883 13.3606 26.9435 13.2578 27.1142 13.1877C27.285 13.1177 27.4681 13.0816 27.653 13.0816C27.8378 13.0816 28.0209 13.1177 28.1917 13.1877C28.3624 13.2578 28.5176 13.3606 28.6483 13.49C28.7791 13.6195 28.8828 13.7733 28.9535 13.9425C29.0242 14.1117 29.0606 14.293 29.0606 14.4761C29.0606 15.2475 28.4309 15.8713 27.6536 15.8713Z"
+                                        fill="white" />
+                                    <path
+                                        d="M33.0701 15.9257C33.057 14.9455 32.8717 13.975 32.5227 13.0577C32.2201 12.2839 31.7579 11.5812 31.1656 10.9944C30.5733 10.4076 29.8639 9.94973 29.0829 9.64992C28.1688 9.31 27.2031 9.12619 26.227 9.10634C24.9702 9.05069 24.5717 9.03516 21.3813 9.03516C18.191 9.03516 17.7821 9.03516 16.5344 9.10634C15.5587 9.12634 14.5935 9.31014 13.6798 9.64992C12.8986 9.94952 12.1892 10.4074 11.5969 10.9942C11.0045 11.581 10.5424 12.2838 10.2399 13.0577C9.89613 13.9625 9.711 14.9189 9.69255 15.8856C9.63637 17.1319 9.61938 17.5267 9.61938 20.6872C9.61938 23.8477 9.61938 24.2515 9.69255 25.4888C9.71214 26.4569 9.89635 27.4121 10.2399 28.3193C10.5429 29.093 11.0054 29.7955 11.5979 30.382C12.1904 30.9686 12.9 31.4262 13.6811 31.7257C14.5923 32.0793 15.5577 32.2763 16.5357 32.3082C17.7938 32.3638 18.1923 32.3806 21.3827 32.3806C24.573 32.3806 24.9819 32.3806 26.2296 32.3082C27.2057 32.2891 28.1714 32.1057 29.0855 31.7659C29.8663 31.4657 30.5755 31.0077 31.1677 30.421C31.76 29.8342 32.2224 29.1317 32.5254 28.3581C32.8689 27.4522 33.0532 26.497 33.0728 25.5276C33.1289 24.2826 33.1459 23.8878 33.1459 20.726C33.1433 17.5655 33.1433 17.1643 33.0701 15.9257ZM21.3735 26.664C18.0368 26.664 15.3338 23.9862 15.3338 20.6807C15.3338 17.3752 18.0368 14.6975 21.3735 14.6975C22.9753 14.6975 24.5116 15.3278 25.6442 16.4499C26.7769 17.572 27.4132 19.0939 27.4132 20.6807C27.4132 22.2676 26.7769 23.7894 25.6442 24.9115C24.5116 26.0336 22.9753 26.664 21.3735 26.664ZM27.6536 15.8713C27.4686 15.8715 27.2854 15.8355 27.1144 15.7655C26.9435 15.6954 26.7882 15.5927 26.6574 15.4631C26.5266 15.3335 26.4228 15.1796 26.3521 15.0103C26.2814 14.8409 26.2451 14.6594 26.2453 14.4761C26.2453 14.293 26.2817 14.1117 26.3524 13.9425C26.4232 13.7733 26.5268 13.6195 26.6576 13.49C26.7883 13.3606 26.9435 13.2578 27.1142 13.1877C27.285 13.1177 27.4681 13.0816 27.653 13.0816C27.8378 13.0816 28.0209 13.1177 28.1917 13.1877C28.3624 13.2578 28.5176 13.3606 28.6483 13.49C28.7791 13.6195 28.8828 13.7733 28.9535 13.9425C29.0242 14.1117 29.0606 14.293 29.0606 14.4761C29.0606 15.2475 28.4309 15.8713 27.6536 15.8713Z"
+                                        fill="white" />
+                                    <path
+                                        d="M21.3727 24.5671C23.5395 24.5671 25.296 22.8271 25.296 20.6805C25.296 18.534 23.5395 16.7939 21.3727 16.7939C19.206 16.7939 17.4495 18.534 17.4495 20.6805C17.4495 22.8271 19.206 24.5671 21.3727 24.5671Z"
+                                        fill="white" />
+                                    <path
+                                        d="M21.3727 24.5671C23.5395 24.5671 25.296 22.8271 25.296 20.6805C25.296 18.534 23.5395 16.7939 21.3727 16.7939C19.206 16.7939 17.4495 18.534 17.4495 20.6805C17.4495 22.8271 19.206 24.5671 21.3727 24.5671Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_13529">
+                                        <rect width="23.8893" height="25.1452" fill="white"
+                                            transform="translate(9.3772 8.13525)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+                    <li><a class="hover_class" href="#"><svg width="43" height="42" viewBox="0 0 43 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_13534)">
+                                    <path
+                                        d="M18.2034 31.8017V21.3909H15.1542V17.6426H18.2034V14.441C18.2034 11.9251 20.0045 9.61475 24.1548 9.61475C25.8352 9.61475 27.0778 9.76018 27.0778 9.76018L26.9799 13.2605C26.9799 13.2605 25.7127 13.2494 24.3298 13.2494C22.8332 13.2494 22.5934 13.8721 22.5934 14.9056V17.6426H27.0988L26.9028 21.3909H22.5934V31.8017H18.2034Z"
+                                        fill="white" />
+                                    <path
+                                        d="M18.2034 31.8017V21.3909H15.1542V17.6426H18.2034V14.441C18.2034 11.9251 20.0045 9.61475 24.1548 9.61475C25.8352 9.61475 27.0778 9.76018 27.0778 9.76018L26.9799 13.2605C26.9799 13.2605 25.7127 13.2494 24.3298 13.2494C22.8332 13.2494 22.5934 13.8721 22.5934 14.9056V17.6426H27.0988L26.9028 21.3909H22.5934V31.8017H18.2034Z"
+                                        fill="white" />
+                                </g>
+                                <path
+                                    d="M41.3662 20.7078C41.3662 31.771 32.3115 40.7501 21.1286 40.7501C9.94582 40.7501 0.89104 31.771 0.89104 20.7078C0.89104 9.64467 9.94582 0.665576 21.1286 0.665576C32.3115 0.665576 41.3662 9.64467 41.3662 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.3662 20.7078C41.3662 31.771 32.3115 40.7501 21.1286 40.7501C9.94582 40.7501 0.89104 31.771 0.89104 20.7078C0.89104 9.64467 9.94582 0.665576 21.1286 0.665576C32.3115 0.665576 41.3662 9.64467 41.3662 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                                <defs>
+                                    <clipPath id="clip0_2_13534">
+                                        <rect width="11.9447" height="22.187" fill="white"
+                                            transform="translate(15.1552 9.61475)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+                    <li><a class="hover_class" href="#"><svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.8532 9.82004L10.541 17.6367C9.15481 18.1924 9.16282 18.9641 10.2867 19.3082L15.5016 20.9317L27.5675 13.3345C28.138 12.9881 28.6593 13.1745 28.2308 13.554L18.4551 22.3585H18.4528L18.4551 22.3596L18.0954 27.724C18.6224 27.724 18.8549 27.4827 19.1505 27.198L21.6835 24.74L26.9523 28.6237C27.9238 29.1576 28.6215 28.8833 28.8632 27.7262L32.3219 11.4595C32.6759 10.043 31.78 9.40159 30.8532 9.82004Z"
+                                    fill="white" />
+                                <path
+                                    d="M30.8532 9.82004L10.541 17.6367C9.15481 18.1924 9.16282 18.9641 10.2867 19.3082L15.5016 20.9317L27.5675 13.3345C28.138 12.9881 28.6593 13.1745 28.2308 13.554L18.4551 22.3585H18.4528L18.4551 22.3596L18.0954 27.724C18.6224 27.724 18.8549 27.4827 19.1505 27.198L21.6835 24.74L26.9523 28.6237C27.9238 29.1576 28.6215 28.8833 28.8632 27.7262L32.3219 11.4595C32.6759 10.043 31.78 9.40159 30.8532 9.82004Z"
+                                    fill="white" />
+                                <path
+                                    d="M41.1726 20.7078C41.1726 31.771 32.1178 40.7501 20.935 40.7501C9.75218 40.7501 0.697406 31.771 0.697406 20.7078C0.697406 9.64467 9.75218 0.665576 20.935 0.665576C32.1178 0.665576 41.1726 9.64467 41.1726 20.7078Z"
+                                    stroke="white" stroke-opacity="0.78" stroke-width="1.33115" />
+                                <path
+                                    d="M41.1726 20.7078C41.1726 31.771 32.1178 40.7501 20.935 40.7501C9.75218 40.7501 0.697406 31.771 0.697406 20.7078C0.697406 9.64467 9.75218 0.665576 20.935 0.665576C32.1178 0.665576 41.1726 9.64467 41.1726 20.7078Z"
+                                    stroke="white" stroke-width="1.33115" />
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <img class="deep_men d-none d-lg-block" src="./assets/images/png/deep.png" alt="">
+
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/app.js"></script>
+
+
+</body>
+
+</html>
